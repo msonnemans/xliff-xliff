@@ -31,7 +31,6 @@
       <xs:sequence>
         <xs:element minOccurs="1" maxOccurs="unbounded" ref="pvn:change"/>
       </xs:sequence>
-      <xs:attribute name="ref" use="optional" type="xs:anyURI"/>
       <xs:anyAttribute namespace="##other" processContents="lax"/>
     </xs:complexType>
   </xs:element>
@@ -47,6 +46,7 @@
       <xs:attribute name="intent" use="optional"/>
       <xs:attribute name="organization" use="optional"/>
       <xs:attribute name="person" use="optional"/>
+      <xs:attribute name="ref" use="optional" type="xs:anyURI"/>
       <xs:attribute name="timestamp" use="optional" type="xs:dateTime"/>
       <xs:attribute name="tool" use="optional"/>
       <xs:anyAttribute namespace="##other" processContents="lax"/>
@@ -56,7 +56,7 @@
   <xs:element name="usage">
     <xs:complexType mixed="false">
       <xs:simpleContent>
-        <xs:extension base="xs:string">
+        <xs:extension base="xs:decimal">
           <xs:attribute name="usageUnit" use="required" type="pvn:usageUnit_type"/>
           <xs:anyAttribute namespace="##other" processContents="lax"/>
         </xs:extension>

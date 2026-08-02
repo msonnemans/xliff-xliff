@@ -75,7 +75,7 @@
       </editor>
     </authorgroup>
 
-    <pubdate>8 July 2026</pubdate>
+    <pubdate>2 August 2026</pubdate>
 
     <copyright>
       <year>2026</year>
@@ -108,7 +108,7 @@
       <para>When referencing this document, the following citation format should be used:</para>
       <para><emphasis role="strong">[XLIFF-2.3-part1]</emphasis></para>
       <para>XLIFF Version 2.3 Part 1:Core. Edited by Rodolfo M. Raya and Lucía Morado Vázquez
-        8 July 2026. OASIS Committee Specification Draft 01. <ulink url="https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part1-core.html">https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part1-core.html</ulink>.
+        2 August 2026. OASIS Committee Specification Draft 01. <ulink url="https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part1-core.html">https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part1-core.html</ulink>.
         Latest stage <ulink url="https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part1-core.html">https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part1-core.html</ulink>.
       </para>
     </legalnotice>
@@ -2730,7 +2730,7 @@
 &lt;file id="f2" xmlns:abc="urn:abc">
   &lt;unit id="1">
     &lt;mtc:matches>
-      &lt;mtc:match id="tc01" ref="seg2">
+      &lt;mtc:match id="tc01" ref="#seg2">
         &lt;source>&lt;sc id="1" isolated="yes"/>Warning:&lt;/source>
         &lt;target>&lt;sc id="1" isolated="yes"/>Attention :&lt;/target>
       &lt;/mtc:match>
@@ -5693,12 +5693,6 @@ Palouse horses&lt;fn>A Palouse horse is the same as
                     <ulink url="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</ulink>
                 </citetitle> W3C Recommendation 28 October 2014.</bibliomixed>
 
-            <bibliomixed id="ITS20"><abbrev>ITS</abbrev> David Filip, Shaun McCance, Dave Lewis,
-                Christian Lieske, Arle Lommel, Jirka Kosek, Felix Sasaki, Yves Savourel
-                    <title>Internationalization Tag Set (ITS) Version 2.0</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/its20/">http://www.w3.org/TR/its20/</ulink>
-                </citetitle> W3C Recommendation 29 October 2013.</bibliomixed>
-
             <bibliomixed id="bib_datetime"><abbrev>NOTE-datetime</abbrev> M. Wolf, C. Wicksteed,
                     <title>Date and Time Formats</title>, <citetitle>
                     <ulink url="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</ulink>
@@ -5846,6 +5840,12 @@ Palouse horses&lt;fn>A Palouse horse is the same as
                     <ulink url="https://unicode-org.github.io/icu-docs/apidoc/released/icu4j/com/ibm/icu/text/PluralRules.html">https://unicode-org.github.io/icu-docs/apidoc/released/icu4j/com/ibm/icu/text/PluralRules.html</ulink>
                 </citetitle>
             </bibliomixed>
+            
+            <bibliomixed id="ITS20"><abbrev>ITS</abbrev> David Filip, Shaun McCance, Dave Lewis,
+                Christian Lieske, Arle Lommel, Jirka Kosek, Felix Sasaki, Yves Savourel
+                <title>Internationalization Tag Set (ITS) Version 2.0</title>, <citetitle>
+                    <ulink url="http://www.w3.org/TR/its20/">http://www.w3.org/TR/its20/</ulink>
+                </citetitle> W3C Recommendation 29 October 2013.</bibliomixed>
 
         </bibliography>
     </section>
@@ -5991,8 +5991,8 @@ Palouse horses&lt;fn>A Palouse horse is the same as
             <para>Added new <remark>Provenance Module</remark>. </para>
         </listitem>
         <listitem>
-            <para>Removed ITS module and its XML Schema. ITS elements and attributes 
-                can still be used in an XLIFF file by declaring the ITS namespace.</para>
+            <para>Removed ITS module and its XML Schema. ITS elements and attributes can still be
+                used in an XLIFF file by declaring the [<link linkend="ITS20">ITS</link>] namespace.</para>
         </listitem>
         <listitem>
             <para>Updated <link linkend="version">version</link> 

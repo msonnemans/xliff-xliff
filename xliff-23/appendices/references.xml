@@ -47,12 +47,6 @@
                     <ulink url="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</ulink>
                 </citetitle> W3C Recommendation 28 October 2014.</bibliomixed>
 
-            <bibliomixed id="ITS20"><abbrev>ITS</abbrev> David Filip, Shaun McCance, Dave Lewis,
-                Christian Lieske, Arle Lommel, Jirka Kosek, Felix Sasaki, Yves Savourel
-                    <title>Internationalization Tag Set (ITS) Version 2.0</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/its20/">http://www.w3.org/TR/its20/</ulink>
-                </citetitle> W3C Recommendation 29 October 2013.</bibliomixed>
-
             <bibliomixed id="bib_datetime"><abbrev>NOTE-datetime</abbrev> M. Wolf, C. Wicksteed,
                     <title>Date and Time Formats</title>, <citetitle>
                     <ulink url="http://www.w3.org/TR/NOTE-datetime"
@@ -232,6 +226,12 @@
                         >https://unicode-org.github.io/icu-docs/apidoc/released/icu4j/com/ibm/icu/text/PluralRules.html</ulink>
                 </citetitle>
             </bibliomixed>
+            
+            <bibliomixed id="ITS20"><abbrev>ITS</abbrev> David Filip, Shaun McCance, Dave Lewis,
+                Christian Lieske, Arle Lommel, Jirka Kosek, Felix Sasaki, Yves Savourel
+                <title>Internationalization Tag Set (ITS) Version 2.0</title>, <citetitle>
+                    <ulink url="http://www.w3.org/TR/its20/">http://www.w3.org/TR/its20/</ulink>
+                </citetitle> W3C Recommendation 29 October 2013.</bibliomixed>
 
         </bibliography>
     </section>

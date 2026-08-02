@@ -46,7 +46,7 @@
 &lt;file id="f2" xmlns:abc="urn:abc">
   &lt;unit id="1">
     &lt;mtc:matches>
-      &lt;mtc:match id="tc01" ref="seg2">
+      &lt;mtc:match id="tc01" ref="#seg2">
         &lt;source>&lt;sc id="1" isolated="yes"/>Warning:&lt;/source>
         &lt;target>&lt;sc id="1" isolated="yes"/>Attention :&lt;/target>
       &lt;/mtc:match>

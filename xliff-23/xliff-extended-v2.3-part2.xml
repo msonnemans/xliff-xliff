@@ -75,7 +75,7 @@
       </editor>
     </authorgroup>
 
-    <pubdate>8 July 2026</pubdate>
+    <pubdate>2 August 2026</pubdate>
 
     <copyright>
       <year>2026</year>
@@ -108,7 +108,7 @@
       <para>When referencing this document, the following citation format should be used:</para>
       <para><emphasis role="strong">[XLIFF-2.3-part2]</emphasis></para>
       <para>XLIFF Version 2.3 Part 2: Extended. Edited by Rodolfo M. Raya and Lucía Morado
-        Vázquez 8 July 2026. OASIS Committee Specification Draft 01. <ulink url="https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part2-extended.html">https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part2-extended.html</ulink>.
+        Vázquez 2 August 2026. OASIS Committee Specification Draft 01. <ulink url="https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part2-extended.html">https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part2-extended.html</ulink>.
         Latest stage <ulink url="https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part2-extended.html">https://docs.oasis-open.org/xliff/xliff-core/v2.3/xliff-v2.3-part2-extended.html</ulink>.
       </para>
     </legalnotice>
@@ -2729,7 +2729,7 @@
 &lt;file id="f2" xmlns:abc="urn:abc">
   &lt;unit id="1">
     &lt;mtc:matches>
-      &lt;mtc:match id="tc01" ref="seg2">
+      &lt;mtc:match id="tc01" ref="#seg2">
         &lt;source>&lt;sc id="1" isolated="yes"/>Warning:&lt;/source>
         &lt;target>&lt;sc id="1" isolated="yes"/>Attention :&lt;/target>
       &lt;/mtc:match>
@@ -9147,7 +9147,7 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
         <emphasis>Attributes:</emphasis>
     </para>
     <simplelist type="vert">
-        <member>- <link linkend="provenance_ref">ref</link>, OPTIONAL</member>
+        <member>- None</member>
     </simplelist>
 </section>
             <section id="change">
@@ -9169,6 +9169,7 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
         <member>- <link linkend="intent">intent</link>, OPTIONAL</member>
         <member>- <link linkend="organization">organization</link>, OPTIONAL</member>
         <member>- <link linkend="person">person</link>, OPTIONAL</member>
+        <member>- <link linkend="provenance_ref">ref</link>, OPTIONAL</member>
         <member>- <link linkend="timestamp">timestamp</link>, OPTIONAL</member>
         <member>- <link linkend="tool">tool</link>, OPTIONAL</member>
     </simplelist>
@@ -9180,7 +9181,7 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
         <emphasis>Contains:</emphasis>
     </para>
     <simplelist type="vert">
-        <member>- Text</member>
+        <member>- Decimal number</member>
     </simplelist>
     <para>
         <emphasis>Attributes:</emphasis>
@@ -9365,7 +9366,7 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
 
   <para><emphasis>Default value:</emphasis> undefined</para>
 
-  <para><emphasis>Used in:</emphasis> <link linkend="provenance_element"><code>&lt;provenance></code></link>.</para>
+  <para><emphasis>Used in:</emphasis> <link linkend="change"><code>&lt;change></code></link>.</para>
 </section>
         <section id="tool">
   <title>tool</title>
@@ -9907,12 +9908,6 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
                     <ulink url="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</ulink>
                 </citetitle> W3C Recommendation 28 October 2014.</bibliomixed>
 
-            <bibliomixed id="ITS20"><abbrev>ITS</abbrev> David Filip, Shaun McCance, Dave Lewis,
-                Christian Lieske, Arle Lommel, Jirka Kosek, Felix Sasaki, Yves Savourel
-                    <title>Internationalization Tag Set (ITS) Version 2.0</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/its20/">http://www.w3.org/TR/its20/</ulink>
-                </citetitle> W3C Recommendation 29 October 2013.</bibliomixed>
-
             <bibliomixed id="bib_datetime"><abbrev>NOTE-datetime</abbrev> M. Wolf, C. Wicksteed,
                     <title>Date and Time Formats</title>, <citetitle>
                     <ulink url="http://www.w3.org/TR/NOTE-datetime">http://www.w3.org/TR/NOTE-datetime</ulink>
@@ -10060,6 +10055,12 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
                     <ulink url="https://unicode-org.github.io/icu-docs/apidoc/released/icu4j/com/ibm/icu/text/PluralRules.html">https://unicode-org.github.io/icu-docs/apidoc/released/icu4j/com/ibm/icu/text/PluralRules.html</ulink>
                 </citetitle>
             </bibliomixed>
+            
+            <bibliomixed id="ITS20"><abbrev>ITS</abbrev> David Filip, Shaun McCance, Dave Lewis,
+                Christian Lieske, Arle Lommel, Jirka Kosek, Felix Sasaki, Yves Savourel
+                <title>Internationalization Tag Set (ITS) Version 2.0</title>, <citetitle>
+                    <ulink url="http://www.w3.org/TR/its20/">http://www.w3.org/TR/its20/</ulink>
+                </citetitle> W3C Recommendation 29 October 2013.</bibliomixed>
 
         </bibliography>
     </section>
@@ -10205,8 +10206,8 @@ unit <emphasis role="bold">#g_msgid_plural_gender</emphasis> <emphasis>@switch(p
             <para>Added new <link linkend="provenance_module">Provenance Module</link>. </para>
         </listitem>
         <listitem>
-            <para>Removed ITS module and its XML Schema. ITS elements and attributes 
-                can still be used in an XLIFF file by declaring the ITS namespace.</para>
+            <para>Removed ITS module and its XML Schema. ITS elements and attributes can still be
+                used in an XLIFF file by declaring the [<link linkend="ITS20">ITS</link>] namespace.</para>
         </listitem>
         <listitem>
             <para>Updated <link linkend="version">version</link> 
