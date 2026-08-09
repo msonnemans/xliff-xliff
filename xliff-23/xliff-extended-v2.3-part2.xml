@@ -10,9 +10,9 @@
 
     <productnumber>csd01</productnumber>
 
-    <releaseinfo role="OASIS-specification-this-authoritative">https://docs.oasis-open.org/xliff/xliff-core/v2.3/csd01/xliff-extended-v2.3-cs01-part2.html</releaseinfo>
-    <releaseinfo role="OASIS-specification-this">https://docs.oasis-open.org/xliff/xliff-core/v2.3/csd01/xliff-extended-v2.3-cs01-part2.pdf</releaseinfo>
-    <releaseinfo role="OASIS-specification-this">https://docs.oasis-open.org/xliff/xliff-core/v2.3/csd01/xliff-extended-v2.3-cs01-part2.xml</releaseinfo>
+    <releaseinfo role="OASIS-specification-this-authoritative">https://docs.oasis-open.org/xliff/xliff-core/v2.3/csd01/xliff-extended-v2.3-csd01-part2.html</releaseinfo>
+    <releaseinfo role="OASIS-specification-this">https://docs.oasis-open.org/xliff/xliff-core/v2.3/csd01/xliff-extended-v2.3-csd01-part2.pdf</releaseinfo>
+    <releaseinfo role="OASIS-specification-this">https://docs.oasis-open.org/xliff/xliff-core/v2.3/csd01/xliff-extended-v2.3-csd01-part2.xml</releaseinfo>
 
     <releaseinfo role="OASIS-specification-previous-authoritative">https://docs.oasis-open.org/xliff/xliff-core/v2.2/xliff-extended-v2.2-part2.html</releaseinfo>
     <releaseinfo role="OASIS-specification-previous">https://docs.oasis-open.org/xliff/xliff-core/v2.2/xliff-extended-v2.2-part2.pdf</releaseinfo>
