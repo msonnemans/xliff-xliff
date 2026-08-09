@@ -44,13 +44,13 @@
             <bibliomixed id="HTML5"><abbrev>HTML5</abbrev> Ian Hickos, Robin Berjon, Steve Faulkner,
                 Travis Leithead, Erika Doyle Navara, Edward O'Connor, Silvia Pfeiffer <title>HTML5.
                     A vocabulary and associated APIs for HTML and XHTML</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/html5/">http://www.w3.org/TR/html5/</ulink>
+                    <ulink url="https://www.w3.org/TR/html5/">https://www.w3.org/TR/html5/</ulink>
                 </citetitle> W3C Recommendation 28 October 2014.</bibliomixed>
 
             <bibliomixed id="bib_datetime"><abbrev>NOTE-datetime</abbrev> M. Wolf, C. Wicksteed,
                     <title>Date and Time Formats</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/NOTE-datetime"
-                        >http://www.w3.org/TR/NOTE-datetime</ulink>
+                    <ulink url="https://www.w3.org/TR/NOTE-datetime"
+                        >https://www.w3.org/TR/NOTE-datetime</ulink>
                 </citetitle> W3C Note, 15th September 1997.</bibliomixed>
 
             <bibliomixed id="rfc3987"><abbrev>RFC 3987</abbrev> M. Duerst and M. Suignard,
@@ -69,32 +69,32 @@
 
             <bibliomixed id="uax9"><abbrev>UAX #9</abbrev> M. Davis, A. Lanin, A. Glass,
                     <title>UNICODE BIDIRECTIONAL ALGORITHM</title>, <citetitle>
-                    <ulink url="http://www.unicode.org/reports/tr9/tr9-35.html"
-                        >http://www.unicode.org/reports/tr9/tr9-35.html</ulink>
+                    <ulink url="https://www.unicode.org/reports/tr9/tr9-35.html"
+                        >https://www.unicode.org/reports/tr9/tr9-35.html</ulink>
                 </citetitle> Unicode Bidirectional Algorithm, May 18, 2016.</bibliomixed>
 
             <bibliomixed id="uax15"><abbrev>UAX #15</abbrev> M. Davis, K. Whistler, <title>UNICODE
                     NORMALIZATION FORMS</title>, <citetitle>
-                    <ulink url="http://www.unicode.org/reports/tr15/tr15-44.html"
-                        >http://www.unicode.org/reports/tr15/tr15-44.html</ulink>
+                    <ulink url="https://www.unicode.org/reports/tr15/tr15-44.html"
+                        >https://www.unicode.org/reports/tr15/tr15-44.html</ulink>
                 </citetitle> Unicode Normalization Forms, February 24, 2016.</bibliomixed>
 
             <bibliomixed id="Unicode"><abbrev>Unicode</abbrev> The Unicode Consortium, <title>The
                     Unicode Standard</title>, <citetitle>
-                    <ulink url="http://www.unicode.org/versions/Unicode9.0.0/"
-                        >http://www.unicode.org/versions/Unicode9.0.0/</ulink>
+                    <ulink url="https://www.unicode.org/versions/Unicode9.0.0/"
+                        >https://www.unicode.org/versions/Unicode9.0.0/</ulink>
                 </citetitle> Mountain View, CA: The Unicode Consortium, June 21, 2016.</bibliomixed>
 
             <bibliomixed id="bib_XML"><abbrev>XML</abbrev> W3C, <title>Extensible Markup Language
                     (XML) 1.0</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/xml/">http://www.w3.org/TR/xml/</ulink>
+                    <ulink url="https://www.w3.org/TR/xml/">https://www.w3.org/TR/xml/</ulink>
                 </citetitle> (Fifth Edition) W3C Recommendation 26 November 2008.</bibliomixed>
             <bibliomixed id="xml_namespace"><abbrev>XML namespace</abbrev> W3C, <title>Schema
                     document for namespace http://www.w3.org/XML/1998/namespace</title>
-                <citetitle><ulink url="http://www.w3.org/2001/xml.xsd"
-                        >http://www.w3.org/2001/xml.xsd</ulink></citetitle> [<edition><ulink
-                        url="http://www.w3.org/2009/01/xml.xsd"
-                        >http://www.w3.org/2009/01/xml.xsd</ulink>]</edition>. at <edition><ulink
+                <citetitle><ulink url="https://www.w3.org/2001/xml.xsd"
+                        >https://www.w3.org/2001/xml.xsd</ulink></citetitle> [<edition><ulink
+                        url="https://www.w3.org/2009/01/xml.xsd"
+                        >https://www.w3.org/2009/01/xml.xsd</ulink>]</edition>. at <edition><ulink
                         url="&this-loc;/schemas/informativeCopiesOf3rdPartySchemas/w3c/xml.xsd"
                         >&this-loc;/schemas/informativeCopiesOf3rdPartySchemas/w3c/xml.xsd</ulink></edition>
                 in this distribution</bibliomixed>
@@ -115,8 +115,8 @@
 
             <bibliomixed id="XMLSchema2"><abbrev>XML Schema Datatypes</abbrev> W3C, <title>XML
                     Schema Part 2: Datatypes</title>, <citetitle>
-                    <ulink url="http://www.w3.org/TR/xmlschema-2/"
-                        >http://www.w3.org/TR/xmlschema-2/</ulink>
+                    <ulink url="https://www.w3.org/TR/xmlschema-2/"
+                        >https://www.w3.org/TR/xmlschema-2/</ulink>
                 </citetitle> (Second Edition) W3C Recommendation 28 October 2004.</bibliomixed>
 
             <bibliomixed id="XMLSchema1"><abbrev>XML Schema Structures</abbrev> W3C, <title>XML
@@ -141,27 +141,27 @@
             <bibliomixed id="biblio_ldml"><abbrev>LDML</abbrev>
                 <title>Unicode Locale Data Markup Language</title>
                 <citetitle>
-                    <ulink url="http://unicode.org/reports/tr35/"
-                        >http://unicode.org/reports/tr35/</ulink>
+                    <ulink url="https://unicode.org/reports/tr35/"
+                        >https://unicode.org/reports/tr35/</ulink>
                 </citetitle></bibliomixed>
             <!-- chnaged the SRX link to Unicode, since GALA moved it for no apparent reason and didn't keep URI -->
             <bibliomixed id="biblio_srx"><abbrev>SRX</abbrev>
                 <title>Segmentation Rules eXchange</title>
                 <citetitle>
-                    <ulink url="http://www.unicode.org/uli/pas/srx/"
-                        >http://www.unicode.org/uli/pas/srx/</ulink>
+                    <ulink url="https://www.unicode.org/uli/pas/srx/"
+                        >https://www.unicode.org/uli/pas/srx/</ulink>
                 </citetitle></bibliomixed>
 
             <bibliomixed id="uax29"><abbrev>UAX #29</abbrev> M. Davis, <title>UNICODE TEXT
                     SEGMENTATION</title>, <citetitle>
-                    <ulink url="http://www.unicode.org/reports/tr29/"
-                        >http://www.unicode.org/reports/tr29/</ulink>
+                    <ulink url="https://www.unicode.org/reports/tr29/"
+                        >https://www.unicode.org/reports/tr29/</ulink>
                 </citetitle> Unicode text Segmentation.</bibliomixed>
 
             <bibliomixed id="biblio_xmli18nbp"><abbrev>XML I18N BP</abbrev>
                 <title>Best Practices for XML Internationalization</title>, 13 February 2008, <citetitle>
-                    <ulink url="http://www.w3.org/TR/xml-i18n-bp/"
-                        >http://www.w3.org/TR/xml-i18n-bp/</ulink>
+                    <ulink url="https://www.w3.org/TR/xml-i18n-bp/"
+                        >https://www.w3.org/TR/xml-i18n-bp/</ulink>
                 </citetitle> W3C Working Group.</bibliomixed>
 
             <bibliomixed id="biblio_icu_mf"><abbrev>ICU MessageFormat</abbrev>
@@ -195,8 +195,8 @@
                 <title>Language Plural Rules (all languages):</title>
                 <citetitle>
                     <ulink
-                        url="http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html"
-                        >http://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html</ulink>
+                        url="https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html"
+                        >https://www.unicode.org/cldr/charts/latest/supplemental/language_plural_rules.html</ulink>
                 </citetitle>
             </bibliomixed>
 

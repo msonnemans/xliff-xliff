@@ -1556,8 +1556,8 @@ Palouse horses&lt;fn&gt;A Palouse horse is the same as
       character in its scope and XLIFF-defined inline directionality markup behaves exactly as
       Explicit Directional Isolate Characters, see <olink targetdoc="../xliff22.xml"
         targetptr="uax9">[UAX #9]</olink>, <ulink
-        url="http://www.unicode.org/reports/tr9/#Directional_Formatting_Characters"
-        >http://www.unicode.org/reports/tr9/#Directional_Formatting_Characters</ulink>.</para>
+        url="https://www.unicode.org/reports/tr9/#Directional_Formatting_Characters"
+        >https://www.unicode.org/reports/tr9/#Directional_Formatting_Characters</ulink>.</para>
     <note>
       <para>Note that this specification does not define explicit markup for inline directional
         Overrides or Embeddings; in case those are needed. Extractors and Modifiers will need to use

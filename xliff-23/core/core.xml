@@ -132,8 +132,8 @@ Text content that is important</programlisting>
 
         <para>XML Processing Instructions <olink targetdoc="../introduction/introduction.xml"
                 targetptr="bib_XML">[XML]</olink> (see specifically <ulink
-                url="http://www.w3.org/TR/REC-xml/#sec-pi"
-                >http://www.w3.org/TR/REC-xml/#sec-pi</ulink>) are an XML mechanism to "allow
+                url="https://www.w3.org/TR/REC-xml/#sec-pi"
+                >https://www.w3.org/TR/REC-xml/#sec-pi</ulink>) are an XML mechanism to "allow
             documents to contain instructions for applications." XML Processing Instructions are
             allowed in XLIFF content but they are ignored in the parsed content in the same sense as
             XML Comments.</para>

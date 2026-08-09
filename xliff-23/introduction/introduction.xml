@@ -39,8 +39,16 @@
           <para>The following is the list of allowed schema URI prefixes for XLIFF-defined elements
             and attributes:</para>
           <simplelist>
-            <member><code>urn:oasis:names:tc:xliff:</code></member>
-            <member><code>http://www.w3.org/2005/11/its</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:document:&version;"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:fs:2.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:glossary:2.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:matches:2.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:metadata:2.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:pgs:1.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:pvn:2.3"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:resourcedata:2.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:sizerestriction:2.0"</code></member>
+            <member><code>"urn:oasis:names:tc:xliff:validation:2.0"</code></member>
           </simplelist>
 
           <para>However, the following namespaces are NOT considered XLIFF-defined for the purposes

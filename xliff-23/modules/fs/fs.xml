@@ -70,15 +70,15 @@
                         <para>Parse the snippet with the <olink targetdoc="../xliff22.xml"
                                 targetptr="HTML5">[HTML5]</olink> fragment parsing algorithm, see
                                 <ulink
-                                url="http://www.w3.org/TR/html5/syntax.html#parsing-html-fragments"
-                                >http://www.w3.org/TR/html5/syntax.html#parsing-html-fragments</ulink>.</para>
+                                url="https://www.w3.org/TR/html5/syntax.html#parsing-html-fragments"
+                                >https://www.w3.org/TR/html5/syntax.html#parsing-html-fragments</ulink>.</para>
                     </listitem>
                     <listitem>
                         <para>the result MUST be a valid DOM tree as per <olink
                                 targetdoc="../xliff22.xml" targetptr="HTML5">[HTML5]</olink>, see
                                 <ulink
-                                url="http://www.w3.org/TR/html5/infrastructure.html#tree-order"
-                                >http://www.w3.org/TR/html5/infrastructure.html#tree-order</ulink>.
+                                url="https://www.w3.org/TR/html5/infrastructure.html#tree-order"
+                                >https://www.w3.org/TR/html5/infrastructure.html#tree-order</ulink>.
                         </para>
                     </listitem>
                 </orderedlist>
